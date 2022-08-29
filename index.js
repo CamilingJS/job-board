@@ -38,5 +38,5 @@ xhttp.onreadystatechange = function() {
        })
     }
 };
-xhttp.open("GET", "https://remoteok.io/api", true);
+xhttp.open("GET", "https://remoteok.com/api?tag=css", true);
 xhttp.send();
